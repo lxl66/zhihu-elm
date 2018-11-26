@@ -1,0 +1,13 @@
+<template name="527d122a">
+  <view class="_view data-v-c13563d4 content">
+    <navigator url="../index/index" hover-class="navigator-hover" class="_navigator data-v-c13563d4">
+      <button type="default" class="_button data-v-c13563d4">返回</button>
+    </navigator>
+    <view class="_view data-v-c13563d4 part2">
+      <image class="_image data-v-c13563d4 banner-image" src="{{data.image}}"></image>
+    </view>
+    <scroll-view class="_scroll-view data-v-c13563d4">
+      <rich-text class="_rich-text data-v-c13563d4 richText" nodes="{{data.body}}" style="width: 70%; height: 100%;"></rich-text>
+    </scroll-view>
+  </view>
+</template>
